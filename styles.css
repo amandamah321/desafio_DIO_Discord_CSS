@@ -5,6 +5,8 @@
     max-width: 100%;
 }
 
+/********HEADER**********/
+
 header {
     background-image: url("/desafio_DIO_Discord_CSS/img/Header\ Background.png");
     height: 29rem;
@@ -47,6 +49,8 @@ header {
     cursor: pointer;
 }
 
+/********HEADER_BUTTONS**********/
+
 .buttons p {
     background-color: #23272A;
     padding: 0.8rem 1.5rem;
@@ -60,4 +64,39 @@ header {
     border-radius: 28px;
 }
 
+/********MAIN**********/
 
+main {
+    margin: 0 auto;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin: 40px 155px;
+    gap: 16px;
+}
+
+.section1 img {
+    width: 38rem;
+    height: 24.5rem;
+}
+
+.section1_container {
+    font-family: 'Open Sans', sans-serif;
+    color: #23272A;
+    width: 21rem;
+    text-align: left;
+}
+
+.section1_container h2 {
+    font-size: 40px;
+    font-weight: 800;    
+}
+
+.section1_container p {
+    font-size: 16px;
+    font-weight: 300;   
+    margin-top: 16px; 
+}
