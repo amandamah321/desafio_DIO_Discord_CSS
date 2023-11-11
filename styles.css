@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+header {
+    background-image: url("/desafio_DIO_Discord_CSS/img/Header\ Background.png");
+    height: 29rem;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container_header {
+    padding: 85px 25%;
+}
+
+.container_header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: #fff;
+    font-family: 56px;
+    font-size: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 10rem;
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.container_header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.buttons p {
+    background-color: #23272A;
+    padding: 0.8rem 1.5rem;
+    border-radius: 28px;
+}
+
+.buttons p:first-child {
+    background-color: #fff;
+    color: #23272A;
+    padding: 0.8rem 1.5rem;
+    border-radius: 28px;
+}
+
+
